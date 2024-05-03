@@ -1,0 +1,550 @@
+@media only screen and (min-width: 720px) {
+
+main {
+    justify-content: center;
+}    
+
+.busquedas {
+    display: flex;
+    width: 85%;
+    height: 25%;
+    border-radius: 45px;
+    background-color: white;
+    opacity: 90%;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+.navegacion {
+    display:flex;
+    position: relative;
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;
+    box-shadow:
+    rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+    rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,
+    rgba(0, 0, 0, 0.1) 0px 10px 10px 0px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.base {
+    display:flex;
+    width: 100%;
+    height:auto;
+    border-radius: 25px;
+    box-shadow:
+    rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+    rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,
+    rgba(0, 0, 0, 0.1) 0px 10px 10px 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.h1Nav {
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    padding-bottom: 30px;
+    font-style: oblique;
+    transition-property: font-size;
+    transition-duration: 0.5s;
+}
+
+#finder {
+    background-image: url("../Materials/photo1.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 80%;
+    width: 100%;
+    height: 400px;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.contNav {
+    display: flex;
+    position: relative;
+    justify-content:space-between;
+    background-color: rgb(56, 135, 240);
+    height: 100px;  
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    overflow: hidden;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+.Ico {
+    display: flex;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    filter:invert(100%);
+}
+
+.navbar {
+    display:flex;
+    position: relative;
+    width: 57%;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.navbarDer {
+    display:flex;
+    position: relative;
+    width: 43%;
+    height:100px;
+    align-items: center;
+    justify-content:flex-start;
+}
+
+.navText {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.navText:hover {
+    background-color: rgb(135, 176, 229);
+}
+
+.navText:active {
+    background-color: rgb(178, 201, 231);
+}
+.navText2 {
+    display: flex;
+    position: relative;
+    margin-top: 3px;
+    padding-top: 1px; 
+}
+
+
+nav {
+    background-color: rgb(56, 135, 240);
+    margin: 0%;
+}
+
+.textTitNav {
+    padding-left: 20px;
+    padding-right: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    color:rgb(63, 157, 219);
+    font-weight: bold;
+}
+
+.textLinkNav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+    font-size: 10px;
+    text-decoration: none;
+    padding-right: 2px;
+}
+
+.textSpanNav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+    font-size: 10px;
+    padding-right: 2px;
+}
+
+.botonBuscar {
+    display: flex;
+    position: relative;
+    width: 120px;
+    height: 80px;
+    background-color: rgb(56, 135, 240);
+    color:rgb(255, 255, 255);
+    border-radius: 45px;
+    z-index: 5;
+    margin-right: 30px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow:
+    rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+    rgba(0, 0, 0, 0.5) 0px 0px 8px 0px,
+    rgba(0, 0, 0, 0.5) 0px 5px 5px 0px;
+}
+
+.botonBuscar:hover {
+    background-color: rgb(63, 143, 248);
+}
+
+.botonBuscar:active {
+    background-color: rgb(63, 143, 220);
+    box-shadow:
+    rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+    rgba(0, 0, 0, 0.2) 0px 0px 8px 0px,
+    rgba(0, 0, 0, 0.2) 0px 10px 10px 0px;
+}
+
+.spanBuscar {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    font-style: oblique;
+    text-decoration: none;
+}
+
+.spanBuscar:active {
+    font-size: 25px;
+}
+.inicioMovil {
+    display: none;
+}
+
+.textoBusquedas {
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.enColumnas {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background-color: aqua;
+    opacity: 90%;
+    width: 150px;
+    height: 100px;
+    border-left: 2px;
+    border-right: 2px;
+    border-color: grey;
+    padding-right: 2px;
+    padding-left: 2px;
+    margin: 2px;
+}
+
+.inputBusquedas {
+    width:140px;
+}
+
+#baseRegistro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#register {
+    display: flex;
+    flex-direction: column;
+    border-color: rgb(56,135,240);
+    padding: 2px;
+    margin: 10px;
+    justify-content: center;
+}
+
+input {
+    border-color: rgb(56,135,240);
+    border-radius: 12px;
+    width: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    padding: 3px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 5px;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    padding: 2px;
+    margin-left: 12px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    
+}
+
+form {
+    border-radius: 12px;
+    background-color: rgb(56,135,240);
+    opacity: 90%;
+    margin-top: 10px;
+    width: auto;
+    justify-content: center;
+}
+
+#botonEnviar {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255,255,255);
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 70px;
+    width: 100px;
+}
+
+#botonEnviar:hover {
+    background-color: rgb(235,235,235);
+}
+
+}
+
+ 
+
+/* Finaliza estilo Desktop.*/
+
+@media only screen and (min-width:700px){
+    .inicioMovil {
+        display: none;
+    }
+
+    
+}
+
+@media screen and (max-width:700px) {
+
+    .botonBuscar {
+        width: 60px;
+        height: 40px;
+    }
+
+    .h1Nav {
+        font-size: 35px;
+    }
+
+    #celuIda {
+        max-width: 650px;
+    }
+    
+    #celuIdaVuelta {
+        max-width: 650px;
+        height: 700px;
+    }
+    
+}
+
+
+/* Inicia estilo mobile 1*/
+
+@media only screen and (max-width:720px){
+
+    .busquedas {
+    display: block;
+}
+
+    .spanBuscar {
+        font-size: 13px;
+    }
+
+.navegacion {
+    display:flex;
+    position: relative;
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;
+    box-shadow:
+    rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+    rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,
+    rgba(0, 0, 0, 0.1) 0px 10px 10px 0px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.base {
+display: flex;
+justify-content: center;
+}
+
+.h1Nav {
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding-bottom: 30px;
+    font-style: oblique;
+
+}
+
+#finder {
+    display: none;
+    height: 300px;
+    width: 98%;
+    align-items: top;
+    justify-content: center;
+    background-color: rgb(56, 135, 240);
+    border-radius: 15px;
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 6px;
+
+}
+.contNav {
+    display: none;
+    flex-direction: column;
+}
+.Ico {
+    display: none;
+}
+.navbar {
+    display:block;
+    background-color: rgb(56,135,240);
+    position: relative;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+.navbarDer {
+    display:block;
+    background-color: rgb(56, 135, 240);
+    position: relative;
+    width: 100%;
+    justify-content:flex-start;
+    flex-direction: column;
+
+}
+.navText {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    padding: 2px;
+    background-color: rgb(56, 135, 240);
+}
+
+.navText:hover{
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+    background-color: aliceblue;
+}
+
+.inicioMovil {
+    display: flex;
+    background-color: rgb(56, 135, 240);
+    width: 100%;
+    z-index: 5;
+    height: 40px;
+    align-items: center;
+    padding-left: 6px;
+}
+.inicioMovil:hover {
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.inicioMovil:hover > a {
+    color: black;
+    font-weight: bold;
+    background-color: aliceblue;
+    user-select:none ;  
+}
+.inputBusquedas {
+    width:140px;
+}
+
+#baseRegistro {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+#register {
+    display: flex;
+    flex-direction: column;
+    border-color: rgb(56,135,240);
+    padding: 2px;
+    margin: 10px;
+}
+
+input {
+    border-color: rgb(56,135,240);
+    border-radius: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    padding: 3px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 5px;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    padding: 2px;
+    margin-left: 12px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    
+}
+
+form {
+    border-radius: 12px;
+    background-color: rgb(56,135,240);
+    opacity: 90%;
+    margin-top: 10px;
+    width: auto;
+}
+
+#botonEnviar {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255,255,255);
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+#botonEnviar:hover {
+    background-color: rgb(235,235,235);
+}
+
+.textTitNav {
+    padding-left: 20px;
+    padding-right: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    color:rgb(63, 157, 219);
+    font-weight: bold;
+}
+.textLinkNav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+    font-size: 10px;
+    text-decoration: none;
+    padding-right: 2px;
+}
+#celuIda {
+    max-width: 650px;
+}
+
+#celuIdaVuelta {
+    max-width: 650px;
+    height: 700px;
+}
+}
