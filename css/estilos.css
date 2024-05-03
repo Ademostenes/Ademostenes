@@ -1,5 +1,9 @@
 @media only screen and (min-width: 720px) {
 
+.logoCel {
+    display: none;
+}    
+
 main {
     justify-content: center;
 }    
@@ -349,6 +353,22 @@ form {
 /* Inicia estilo mobile 1*/
 
 @media only screen and (max-width:720px){
+
+    .logoCel {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(56, 135, 240);
+        width: 100%;
+        height: 50px;
+        border-bottom: 2px;
+        border-color: white;
+        margin-bottom: 2px;
+    }
+
+    #logo {
+        filter: invert(100%);
+        height: 95  %;
+    }
 
     .busquedas {
     display: block;
