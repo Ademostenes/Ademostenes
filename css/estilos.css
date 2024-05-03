@@ -4,6 +4,15 @@
     display: none;
 }    
 
+#logoGral {
+    display:inherit;
+    z-index: 4;
+    width: 180px;
+    filter: invert(100%);
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
 main {
     justify-content: center;
 }    
@@ -81,8 +90,6 @@ main {
     background-color: rgb(56, 135, 240);
     height: 100px;  
     align-items: center;
-    justify-content: center;
-    margin: 0px;
     overflow: hidden;
 }
 
@@ -100,7 +107,7 @@ body {
 .navbar {
     display:flex;
     position: relative;
-    width: 57%;
+    width: 37%;
     margin-left: 20px;
     align-items: center;
     justify-content: flex-end;
@@ -319,13 +326,7 @@ form {
 
 /* Finaliza estilo Desktop.*/
 
-@media only screen and (min-width:700px){
-    .inicioMovil {
-        display: none;
-    }
 
-    
-}
 
 @media screen and (max-width:700px) {
 
@@ -438,7 +439,7 @@ justify-content: center;
 
 .navbarDer {
     display:block;
-    background-color: rgb(56, 135, 240);
+    background-color: transparent;
     position: relative;
     width: 100%;
     justify-content:flex-start;
@@ -566,4 +567,7 @@ form {
     max-width: 650px;
     height: 700px;
 }
+
+#logoGral {
+    display:none;
 }
