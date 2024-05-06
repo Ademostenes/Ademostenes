@@ -1,0 +1,27 @@
+h1 {
+    margin-top: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    z-index: 2;
+}
+
+h2 {
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+.imagen {
+    display: inline;
+    width:350px;
+    height: auto;
+    z-index: 0;
+    filter:invert(51%) sepia(25%) saturate(5029%) hue-rotate(195deg) brightness(94%) contrast(100%);
+
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
