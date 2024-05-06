@@ -6,12 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>404 - Page not found</title>
     <link rel="stylesheet" href="./css/estilo404.css">
+    <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
+    <header> 
+        <div class="logoCel">
+            <img src="./Materials/svg/Logo_FH.svg" id="logo">
+        </div> 
+        <div class="inicioMovil" id = "inicioMov" onclick= "cambiaMenu()">
+            <a class="navText" >Menu +</a>
+        </div>
+        <div class="contNav" id = "barraNav">
+            <img src="./Materials/svg/Logo_FH.svg" id="logoGral">
+            <nav class="navbar">
+                <a class="navText" id="botInicio" href="./index.html">
+                    <img class="Ico" id="IcoCel" src="./Materials/svg/home.svg">
+                    <p class="navText2">Inicio</p>
+                </a>
+            <a class="navText" id="botVuelos" href="./vuelos.html" id="vuelos">
+                <img class="Ico" src="./Materials/svg/flights.svg">
+                    <span><p class="navText2" >Vuelos</p></span>
+            </a>
+            <a class="navText" id="botPaquetes" href="./paquetes.html">
+                <img class="Ico" id="paquetes" src="./Materials/svg/paquetes.svg">
+                    <span><p class="navText2">Paquetes</p></span>
+            </a>
+        <a class="navText" id="botOfertas" href="./ofertas.html">
+            <img class="Ico" id="ofertas" src="./Materials/svg/pasajes.svg">
+                <span><p class="navText2">Ofertas</p></span>
+            </a>    
+        </nav>
+        <nav class="navbarDer">
+            <a class="navText" id="botRegistro" href="./registro.html">
+                <img class="Ico" id="registro" src="./Materials/svg/registro.svg">
+                    <span><p class="navText2">Regístrate</p></span>
+            </a>
+            <a class="navText" id="botIngreso" href="./ingreso.html">
+                <img class="Ico" id="ingreso" src="./Materials/svg/access.svg">
+                    <span><p class="navText2">Ingresar</p></span>
+                </a> 
+            </nav>
+        </div>
+</div>
+</header>
         <div class="contenedor">
             <h1>Oooops!. La página que buscas desapareció del radar</h1> 
             <img class ="imagen" src="./Materials/svg/404.svg" alt="Error 404">
-            <h2>Haz click <a href="./index.html">aquí</a>, para ir al home del sitio</h2>
+            <h2>Haz click <a href="./index.html">aquí</a>, para ir al home del sitio o navegar desde el menú</h2>
         </div>
+        <script src="./funciones.js"></script>
 </body>
 </html>
