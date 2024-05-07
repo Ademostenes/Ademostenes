@@ -5,16 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title id="titulo">Inicio</title>
     <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/Carrousel.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider-extensions.min.js" crossorigin="anonymous" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
 </head>
 <body>
     <header>
+    <!-- Inicia Header/Menú navegación -->
     <div class="logoCel">
         <img src="./Materials/svg/Logo_FH.svg" id="logo">
     </div>
-    <div class="inicioMovil" id = "inicioMov" onclick= "cambiaMenu()">
+        <div class="inicioMovil" id = "inicioMov" onclick= "cambiaMenu()">
         <a class="navText" >Menu +</a>
-    </div>
-    <div class="contNav" id = "barraNav">
+        </div>
+        <div class="contNav" id = "barraNav">
         <img src="./Materials/svg/Logo_FH.svg" id="logoGral">
         <nav class="navbar">
                 <a class="navText" id="botInicio" href="./index.html">
@@ -44,14 +49,18 @@
                     <span><p class="navText2">Ingresar</p></span>
             </a> 
         </nav>
+        </div>
     </div>
-</div>
+    <!-- Fin Header/Menú navegación -->
 </header>
 <main>
+    <!-- Inicio Árbol del sitio -->
     <div class="navegacion">
          <p class = "textTitNav">Usted esta aquí: </p>
          <a class = "textLinkNav" href="./index.html">Inicio</a>
     </div>
+    <!-- Fin Árbol del sitio -->
+    <!-- Inicio sección buscador -->
     <div class="base" id="finder">
         <h1 class ="h1Nav">Planifica tu próximo destino</h1>
         <div class="busquedas">
@@ -69,6 +78,50 @@
         </a>
         </div>
     </div>
+    <!-- Fin sección buscador -->
+    <!-- Inicia aquí Carrousel -->
+    <div class="base" id="menor">
+    <h2 class="titulosMedianos">Destinos para escapadas de fin de semana</h2>
+    <div class="swiffy-slider slider-item-show4 slider-item-ratio slider-item-ratio-1x1 slider-item-nosnap-touch slider-nav-caretfill slider-nav-sm slider-nav-visible slider-nav-autopause slider-indicators-round slider-indicators-dark slider-indicators-outside slider-indicators-highlight slider-indicators-sm slider-nav-animation-scaleup slider-nav-mousedrag" id="ofertas">
+        <ul class="slider-container">
+            <li>
+                <div id="slide1"><img class="dentrode" src="./Materials/IGUAZU.jpg"></div>
+            </li>
+            <li>
+                <div id="slide2"><img class="dentrode" src="./Materials/BUENOS AIRES.jpeg"></div>
+            </li>
+            <li>
+                <div id="slide3"><img class="dentrode" src="./Materials/Córdoba.jpeg"></div>
+            </li>
+            <li>
+                <div id="slide4"><img class="dentrode" src="./Materials/cataratas.webp"></div>
+            </li>
+            <li>
+                <div id="slide5"><img class="dentrode" src="./Materials/Bariloche6.jpg"></div>
+            </li>
+            <li>
+                <div id="slide6"><img class="dentrode" src="./Materials/mdq.jpg"></div>
+            </li>
+            <li>
+                <div id="slide7"><img class="dentrode" src="./Materials/Ushuaia.jpg"></div>
+            </li>
+        </ul>
+    
+        <button type="button" class="slider-nav"></button>
+        <button type="button" class="slider-nav slider-nav-next"></button>
+    
+        <ul class="slider-indicators">
+            <li class=""></li>
+            <li class=""></li>
+            <li class=""></li>
+            <li class="active"></li>
+            <li class=""></li>
+            <li class=""></li>
+            <li class=""></li>
+        </ul>
+    </div>
+</div>
+    <!-- Termina Aquí Carrousel -->
     <div class="base" id="celuIda">
         <div>           
         </div>
@@ -79,5 +132,6 @@
     </div>
 </main>
 <script src="./funciones.js"></script>
+<script src="./carrousel.js"></script>
 </body>
 </html>
