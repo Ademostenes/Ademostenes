@@ -6,9 +6,7 @@
     <title id="titulo">Inicio</title>
     <link rel="stylesheet" href="./css/estilos.css">
     <link rel="stylesheet" href="./css/Carrousel.css">
-    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider-extensions.min.js" crossorigin="anonymous" defer></script>
-    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+    
 </head>
 <body>
     <header>
@@ -61,7 +59,7 @@
     </div>
     <!-- Fin Árbol del sitio -->
     <!-- Inicio sección buscador -->
-    <div class="base" id="finder">
+    <div class="base" id="finder" style="margin-top: 2px;">
         <h1 class ="h1Nav">Planifica tu próximo destino</h1>
         <div class="busquedas">
 
@@ -79,13 +77,16 @@
         </div>
     </div>
     <!-- Fin sección buscador -->
+    <!-- Inicia Otro Carrousel-->
+    <iframe class="iframeCarr" src="./Carro.html"></iframe>
+    <!-- Fin Otro Carrousel -->
     <!-- Inicia aquí Carrousel -->
     <div class="base" id="menor">
     <h2 class="titulosMedianos">Destinos para escapadas de fin de semana</h2>
     <div class="swiffy-slider slider-item-show4 slider-item-ratio slider-item-ratio-1x1 slider-item-nosnap-touch slider-nav-caretfill slider-nav-sm slider-nav-visible slider-nav-autopause slider-indicators-round slider-indicators-dark slider-indicators-outside slider-indicators-highlight slider-indicators-sm slider-nav-animation-scaleup slider-nav-mousedrag" id="ofertas">
         <ul class="slider-container">
             <li>
-                <div id="slide1"><img class="dentrode" src="./Materials/IGUAZU.jpg"></div>
+                <div id="slide1"><img class="dentrode" src="./Materials/IGUAZU.jpg"><a class="select" href="escapadas.html">Iguazú</a></div>
             </li>
             <li>
                 <div id="slide2"><img class="dentrode" src="./Materials/BUENOS AIRES.jpeg"></div>
