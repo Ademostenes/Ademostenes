@@ -40,6 +40,7 @@ main {
     rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,
     rgba(0, 0, 0, 0.1) 0px 10px 10px 0px;
     margin-top: 10px;
+    margin-bottom: 20px;
     align-items: center;
     justify-content: flex-start;
 }
@@ -61,14 +62,14 @@ main {
 
 
 .h1Nav {
-    display: flex;
-    color: rgb(255, 255, 255);
+    color: rgb(56, 135, 240);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 40px;
-    padding-bottom: 30px;
+    font-size: 20px;
     font-style: oblique;
     transition-property: font-size;
     transition-duration: 0.5s;
+    margin-top: 40px;
+    margin-bottom: 0px;
 }
 
 #finder {
@@ -425,6 +426,14 @@ form {
         padding: 2px;
         justify-content: center;
         justify-items: center;
+        margin-top: 5px;
+    }
+
+    #findFrame {
+        height: 130px;
+        margin-top: -15px;
+        margin-bottom: 40px;
+        align-self: flex-start;
     }
 
 }

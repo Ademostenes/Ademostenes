@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title id="titulo">Inicio</title>
     <link rel="stylesheet" href="./css/estilos.css">
-    <link rel="stylesheet" href="./css/Carrousel.css">
     
 </head>
 <body>
@@ -59,22 +58,10 @@
     </div>
     <!-- Fin Árbol del sitio -->
     <!-- Inicio sección buscador -->
-    <div class="base" id="finder" style="margin-top: 2px;">
-        <h1 class ="h1Nav">Planifica tu próximo destino</h1>
-        <div class="busquedas">
-
-                <form>
-                    <div class="enColumnas">
-                        <label class="textoBusquedas">Origen
-                            <input class="inputBusquedas" type="text" value="Jujuy">
-                        </label>
-                    </div>
-                </form>
-
-            <a class="spanBuscar"href="./index.html">
-            <div class="botonBuscar"><span>Go!</span></div>
-        </a>
-        </div>
+    <div style="margin-top: 2px; display: flex; flex-direction: column; justify-items: center; justify-content: center; text-align: center; margin-bottom: 2px; height: 150px; align-content:center;">
+        <h1 class ="h1Nav">Busca el vuelo para vos!</h1>
+        <iframe class="iframeCarr" id="findFrame" src="./busquedas.html">
+        </iframe>
     </div>
     <!-- Fin sección buscador -->
     <!-- Inicia Otro Carrousel-->
