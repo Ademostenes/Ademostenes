@@ -432,18 +432,20 @@ form {
     .iframeCarr {
         display: flex;
         border: none;
-        width: 100%;
+        width: 85%;
         height: 800px;
         padding: 2px;
         justify-content: center;
         justify-items: center;
         margin-top: 5px;
+        margin-left: 7%;
+        background-color: transparent   ;
     }
 
     #findFrame {
         height: 130px;
         margin-top: -15px;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
         align-self: flex-start;
     }
 
@@ -485,6 +487,7 @@ form {
         align-content: left;
         padding: 0px;
         margin-top: 15px;
+        margin-left: 6.5%;
     }
 
 }
