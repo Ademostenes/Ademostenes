@@ -17,6 +17,7 @@ input {
     width: 90%;
     text-align:justify;
     color: #b3b3b3;
+    background-color: transparent;
 }
 
 
@@ -36,6 +37,7 @@ input {
     align-items: center;
     justify-content: space-between;
     filter: brightness(100%);
+    background-color: transparent;
 }
 
 .container {
