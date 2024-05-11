@@ -1,4 +1,7 @@
 @media only screen and (min-width: 720px) {
+body {
+    background-color: transparent;
+}
 
 form {
     display: flex;
@@ -31,6 +34,7 @@ input {
     margin-left: 2.5%;
     align-items: center;
     justify-content: space-between;
+    filter: brightness(100%);
 }
 
 .container {
@@ -50,6 +54,72 @@ input {
     color: rgb(0,0,0);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.container:hover {
+    filter: opacity(50%);
+}
+
+.contOpciones {
+    border-radius: 15px;
+    margin-left: 40px;
+    margin-top: 5px;
+    position:inherit;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    box-shadow:
+    rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+    rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,
+    rgba(0, 0, 0, 0.1) 0px 10px 10px 0px;
+    background-color: rgb(236, 233, 233);
+}
+
+ul {
+    display: flexbox;
+    position: absolute;
+}
+
+li {
+    display: flex;
+    margin-left: -40px;
+    width: 400px;
+    height: 60px;
+    box-shadow:
+    rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+    rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,
+    rgba(0, 0, 0, 0.1) 0px 10px 10px 0px;
+    cursor: pointer;
+}
+
+li:hover {
+    filter: brightness(50%);
+}
+
+#ligrey {
+    background-color: rgb(216, 215, 215);
+}
+
+#ligrey:hover {
+    filter: brightness(70%);
+
+}
+
+#ligrey:hover .li1 {
+    color:rgb(8, 8, 8);
+}
+
+.li1 {
+    color: #6d6d6d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    margin-left: 60px;
+
 }
 
 #eIzq {
@@ -57,17 +127,46 @@ input {
 }
 
 #eDer {
-    margin-right: 40px;
+    margin-right: 5px;
     border: 0px;
+    width: 100px;
+    background-color: #80BDFF;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    align-items: center;
+    justify-items: center;
+    filter: brightness(100%);
+    user-select: none;
+}
+
+#eDer:hover {
+    filter: brightness(103%);
+    box-shadow:
+    rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+    rgba(0, 0, 0, 0.03) 0px 0px 8px 5px,
+    rgba(0, 0, 0, 0.2) 1px 2px 2px 0px;
 }
 
 p {
-    text-overflow: inherit;
+
     margin-top: 15px;
     margin-bottom: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(56, 135, 240);
     font-weight: bolder;
+}
+
+.greyText {
+    color:rgb(202, 202, 202);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+.boton {
+    color:rgb(255, 255, 255);
+    margin-top: 45%;
 }
 
 .form-date {
