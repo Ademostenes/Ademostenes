@@ -443,7 +443,7 @@ form {
     }
 
     #findFrame {
-        height: 130px;
+        height: 200px;
         margin-top: -15px;
         margin-bottom: 30px;
         align-self: flex-start;

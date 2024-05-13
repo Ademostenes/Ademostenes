@@ -7,6 +7,14 @@
     <link rel="stylesheet" href="./css/busquedas.css">
 </head>
 <body>
+    <div class="tipoViaje">
+        <form class="selTipoViaje">
+            <input class="radioB" type="radio" name="tipoVuelo" value="idayvuelta" checked="checked" id="idaVuelta" onclick="cambiaBusqueda();">
+            <label class="selectores">Ida y Vuelta</label>
+            <input class="radioB" type="radio" name="tipoVuelo" value="soloida" id="soloIda" onclick="cambiaBusqueda();">
+            <label class="selectores">Solo ida</label>
+        </form> 
+    </div>
     <section class="cuadroBusq">
         <form>
             <section class="container" id="eIzq" onclick="layerOrigen()">
@@ -16,24 +24,24 @@
             <section class="container">
                 <p>Destino</p>
                 <p class="greyText" id="origen">Ciudad Autónoma de Buenos Aires. Aeroparque.</p>
-        
             </section>
             <section class="container">
                 <p>Fecha salida</p>
-                <input type="date">
+                <input type="date" class="dates">
             </section>
-            <section class="container">
+            <section class="container" id="contRegreso">
                 <p>Fecha regreso</p>
-                <input type="date">
+                <input type="date" class="dates">
             </section>
             <section class="container" >
                 <p>Cantidad pasajeros</p>
-                <input type="number" id="cantPasaje" value=1 min=1>
+                <input type="number" id="cantPasaje" value=1 min=1 class="dates">
             </section>
             <section class="container" id="eDer">
                 <p class="boton">Buscar</p>
             </section>
         </form>
+        <script src="./Js/funcBusquedas.js"></script>
    
 </body>
 </html>
