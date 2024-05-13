@@ -457,7 +457,6 @@ form {
         justify-content: center;
         text-align: center;
         margin-bottom: 2px;
-        height: 150px;
         align-content:center;
     }
     
@@ -579,7 +578,7 @@ form {
     }
 
 .h1Nav {
-    display: flex;
+    display: none;
     color: rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
@@ -802,17 +801,33 @@ form {
 }
 
 #findFrame {
-    height: 300px;
-    margin-top: -90px;
+    height: 495px;
+    margin-top: 0px;
     margin-bottom: 40px;
     width: 100%;
-    z-index: 5;
+    z-index: 2;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 0%;
 }
 
 .tipoViaje {
-    display: none;
+    margin-top: 0px;
+    display: block;
+    flex-direction: column;
 }
 
+.searcher {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    z-index: 2;
+    height: max-content;
+    margin-top: 0px;
+    margin-bottom: 20px;
+
+    
+}
 
 
 
