@@ -510,6 +510,56 @@ form {
         margin-right: 0px;
     }
 
+
+    .topFooter {
+        display: flex;
+        width: 100%;
+        height: 60px;
+        margin-left: 0px;
+        margin-right: 0px;
+        background-color: rgb(135, 147, 161);
+    }
+
+    .topIzquierdo {
+        display: flex;
+        width: 72%;
+        height: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .topDerecho {
+        display: flex;
+        width: 28%;
+        height: 100%;
+        justify-content: center;
+    }
+    
+    .redes {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+        margin-top: 16px;
+        color: rgb(255, 255, 255);
+    }
+
+    .iconos {
+        margin-top: 15px;
+        width: 30px;
+        height: auto;
+        filter:invert(100%)
+    }
+
+    .iconos:hover {
+        width: 28px;
+        height: auto;
+        margin-top: 16px;
+    }
+
+    .topDerecho > a {
+        width: 20px;
+        padding-right: 30px;
+    }
+
 }
 
  
@@ -849,6 +899,8 @@ form {
 
     
 }
+
+
 
 
 
