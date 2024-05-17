@@ -21,7 +21,7 @@
     margin-top: -300px;
 }
 
-#logoGral {
+.logoGral {
     display:inherit;
     z-index: 4;
     width: 180px;
@@ -335,31 +335,6 @@ form {
     width: 100px;
 }
 
-.gallery {
-    display:none;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    margin-bottom: 30px;
-    padding-bottom: 5px;
-    height: 300px;
-
-
-  }
-  
-  .gallery-cell {
-    margin-top: 20px;
-    width: 300px;
-    height: 300px;
-    margin: 5px;
-    counter-increment: gallery-cell;
-    border-radius: 12px;
-    box-shadow:
-    rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
-    rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
-    rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,
-    rgba(0, 0, 0, 0.1) 0px 10px 10px 0px;
-    object-position: center;
-  }
 
   .gallery-cell:before {
     display: block;
@@ -391,7 +366,6 @@ form {
   }
 
   #ofertas {
-    display: flexbox;
     border-radius: 20px;
   }
 
@@ -408,7 +382,6 @@ form {
   }
 
   #baseCar {
-    display:flexbox;
     width: 100%;
     height:auto;
     border-radius: 25px;
@@ -441,7 +414,7 @@ form {
         display: flex;
         border: none;
         width: 85%;
-        height: 800px;
+        height: 750px;
         padding: 2px;
         justify-content: center;
         justify-items: center;
@@ -491,7 +464,6 @@ form {
 
     .tipoViaje {
         display: flex;
-        align-content: left;
         padding: 0px;
         margin-top: 15px;
         margin-left: 6.5%;
@@ -514,7 +486,7 @@ form {
     .topFooter {
         display: flex;
         width: 100%;
-        height: 60px;
+        height: 20%;
         margin-left: 0px;
         margin-right: 0px;
         background-color: rgb(135, 147, 161);
@@ -546,7 +518,8 @@ form {
         margin-top: 15px;
         width: 30px;
         height: auto;
-        filter:invert(100%)
+        filter:invert(100%);
+        border-radius: 15px;
     }
 
     .iconos:hover {
@@ -560,6 +533,79 @@ form {
         padding-right: 30px;
     }
 
+    .botFooter {
+        display: flex;
+        width: 100%;
+        height: 80%;
+        background-color: rgb(235,235,235);
+    }
+    
+    .botFooterIzq {
+        display: flex;
+        padding: 10px;
+        flex-direction: column;
+        width: 20%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-right: 2px rgb(255, 255, 255);
+    }
+
+    .botFooterIzq > a {
+        padding: 2px;
+        font-size: 12px;
+        cursor: pointer;
+        text-decoration: none; 
+        color: rgb(53, 53, 53);
+        margin-left: 15px;
+    }
+
+    .botFooterDer > a {
+        padding:2px;
+        font-size: 12px;
+        cursor: pointer;
+        text-decoration: none; 
+        color: rgb(53, 53, 53);
+        margin-left: 5px;
+        margin-bottom: 2px;
+    }
+
+    .botFooterIzq > a:hover {
+        font-size: 11.75px;
+        color: rgb(90, 90, 90);
+    }
+
+    .botFooterDer > a:hover {
+        font-size: 11.75px;
+        color: rgb(90, 90, 90);
+    }
+
+    .botFooterIzq > h4 {
+        color:rgb(75, 75, 75);
+        margin-left: 20px;
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+    
+    .botFooterDer {
+        display: flex;
+        padding: 10px;
+        flex-direction: column;
+        width: 20%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .botFooterDer > h4 {
+        color:rgb(56,135,240);
+        margin-left: 8px;
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+
+    .flags {
+        width: 17px;
+        padding-right: 5px;
+        align-self: center;
+
+    }
 }
 
  
@@ -662,7 +708,6 @@ form {
     display: none;
     height: 300px;
     width: 98%;
-    align-items: top;
     justify-content: center;
     background-color: rgb(56, 135, 240);
     border-radius: 15px;
@@ -714,6 +759,12 @@ form {
     color: black;
     font-weight: bold;
     background-color: aliceblue;
+}
+
+.navText2 {
+    height: 30px;
+    align-content: center;
+    padding: 5px;
 }
 
 .inicioMovil {
@@ -820,7 +871,7 @@ form {
     height: 700px;
 }
 
-#logoGral {
+.logoGral {
     display:none;
 }
 
@@ -899,10 +950,4 @@ form {
 
     
 }
-
-
-
-
-
-
 }
