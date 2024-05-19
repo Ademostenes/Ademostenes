@@ -17,7 +17,7 @@ input {
     border: none;
     text-align:justify;
     color: #b3b3b3;
-    background-color: transparent;
+    background-color: rgb(255,255,255);
 }
 
 .dates {
@@ -41,7 +41,7 @@ input {
     align-items: center;
     justify-content: space-between;
     filter: brightness(100%);
-    background-color: transparent;
+    background-color: rgb(255,255,255);
 }
 
 .container {
@@ -78,7 +78,7 @@ input {
     margin-right: 5px;
     border: 0px;
     width: 100px;
-    background-color: #80BDFF;
+    background-color: rgb(37, 109, 204);
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
     align-items: center;
@@ -161,8 +161,8 @@ option {
 }
 
 .radioB {
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 0px;
+    margin-left: 0px;
 
 }
 
@@ -174,7 +174,7 @@ option {
 }
 
 .selectores {
-    color:rgb(56, 135, 240);
+    color:rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;  
     margin-left: 2px;
@@ -193,14 +193,15 @@ option {
         background-color: rgb(56, 135, 240);
         border-radius: 0px;
         width:100%;
-        height:435px;
+        height:auto;
             box-shadow:
             rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
             rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
             rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,
-            rgba(0, 0, 0, 0.1) 0px 10px 10px 0px;
-        margin-top: 5px;
+            rgba(0, 0, 0, 0.2) 0px 10px 10px 0px;
+        margin-top: 0px;
         margin-left: 0.5%;
+        padding-bottom: 20px;
         align-items: center;
         justify-items: left;
     }
@@ -253,7 +254,7 @@ option {
     .greyText {
         color:rgb(112, 112, 112);
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 12px;
+        font-size: 11px;
         margin-top: 5px;
     }
 
@@ -325,14 +326,20 @@ option {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-style: italic;
         font-weight: bold;
-        align-items: center;
+        align-content: center;
         background-color: #ffffff;
+        margin-left: 0.5%;
     }
 
     .selectores {
         color:rgb(56, 135, 240);
-        margin: 0px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 11px;  
+    }
+
+    .radioB {
+        margin-right: 0px;
+        margin-left: 5px;
+    
     }
 }
