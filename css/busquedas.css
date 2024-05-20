@@ -201,6 +201,10 @@ option {
     margin-left: 10px;
 }
 
+.listado {
+    height: 250px;
+}
+
 .container:hover > .frameBusquedas {
     filter: opacity(100%);
 }

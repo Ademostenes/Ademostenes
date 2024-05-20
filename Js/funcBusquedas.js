@@ -28,3 +28,6 @@ if (capa.style.display == "none"){
 
 cambiaBusqueda();
 
+document.getElementById("origen").click();
+document.getElementById("destino").click();
+

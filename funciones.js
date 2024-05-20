@@ -82,4 +82,7 @@ const swiper = new Swiper('.carousel-inner', {
     }
 
     reconocerPage();
+
+    document.getElementById("findFrame").focus;
+    document.getElementById("findFrame").click;
   
