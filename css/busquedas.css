@@ -219,16 +219,11 @@ option {
         display: flex;
         flex-direction: column;
         color:rgb(255,255,255);
-        background-color: rgb(56, 135, 240);
+        background-color: transparent;
         border-radius: 0px;
         width:100%;
         height:auto;
-            box-shadow:
-            rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
-            rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
-            rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,
-            rgba(0, 0, 0, 0.2) 0px 10px 10px 0px;
-        margin-top: 0px;
+        margin-top: 10px;
         margin-left: 0.5%;
         padding-bottom: 20px;
         align-items: center;
@@ -238,12 +233,13 @@ option {
     .container {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 120%;
         height: 60px;
         background-color: rgb(255,255,255);
         border-radius: 12.5px;
         margin-top: 5px;
         cursor: pointer;
+        margin-left: -23px;
     }
 
     p {
@@ -326,7 +322,7 @@ option {
     }
 
     #eDer:active {
-        margin-top: 22px;   
+        margin-top: 13px;   
         height: 38px;
         box-shadow: 0px 1px 0px hsl(212, 60%, 55%),
                     0px 2px 0px hsl(212,60%,38%),
@@ -336,9 +332,7 @@ option {
                     0px 14px 10px #5c5c5c,
     }
 
-    #eIzq {
-        margin-top: 30px;
-    }
+
     .boton {
         color: rgb(255, 255, 255);
         font-size: large;
@@ -347,21 +341,16 @@ option {
     }
 
     .tipoViaje {
-        box-shadow:
-        rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
-        rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
-        rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,
-        rgba(0, 0, 0, 0.1) 0px 10px 10px 0px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-style: italic;
         font-weight: bold;
         align-content: center;
-        background-color: #ffffff;
+        background-color: transparent;
         margin-left: 0.5%;
     }
 
     .selectores {
-        color:rgb(56, 135, 240);
+        color:rgb(255, 255, 255);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 11px;  
     }
@@ -369,6 +358,34 @@ option {
     .radioB {
         margin-right: 0px;
         margin-left: 5px;
-    
     }
+
+    .frameBusquedas {
+        position:absolute;
+        flex-direction: column;
+        margin-top: 65px;
+        width: 66%;
+        height: 250px;
+        background-color: rgb(255, 255, 255);
+        box-shadow:
+        rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+        rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+        rgba(0, 0, 0, 0.2) 0px 0px 8px 0px,
+        rgba(0, 0, 0, 0.5) 0px 10px 10px 0px;
+        z-index: 2;
+        border-radius: 15px;
+    }
+
+    .listado {
+        height: 250px;
+    }
+
+    .selTipoViaje {
+        display: flex;
+        margin-top: 10px;
+        align-items: center;
+        align-content:start;
+        justify-content: center;
+    }
+
 }

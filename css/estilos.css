@@ -928,6 +928,7 @@ form {
     margin-left: 0%;
     margin-right: 0%;
     padding: 0%;
+    background-color: transparent;
 }
 
 .tipoViaje {
@@ -939,7 +940,7 @@ form {
 .searcher {
     display: flex;
     flex-direction: column;
-    background-color: rgb(255, 255, 255);
+    background-color:transparent;
     z-index: 2;
     height: max-content;
     margin-top: 0px;
@@ -1093,5 +1094,14 @@ footer {
     padding-right: 5px;
     align-self: center;
 
+}
+.fondo {
+    display: flex;
+    position: absolute;
+    width: 98.75%;
+    height: 1500px;
+    background: linear-gradient( rgb(76, 131, 202), rgb(214, 229, 248));
+    z-index: -5;
+    padding-top: 20px;
 }
 }
