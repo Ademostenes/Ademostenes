@@ -10,24 +10,28 @@ function cambiaBusqueda(){
     }
 }
 
-
-
 function capaBusquedas(nombre){
+let capaOp;
+    if (nombre == "origen"){
+        capaOp = document.getElementById("destino");
+    } else {
+        capaOp = document.getElementById("origen");
+    }
 let capa = document.getElementById(nombre);
-if (nombre == "origen"){
-    document.getElementById("destino").display = "none"; 
-} else {
-    document.getElementById("origen").display = "none";
-}
 if (capa.style.display == "none"){
     capa.style.display = "flex";
+    capaOp.style.display = "none";
 } else {
     capa.style.display = "none";
 }
 }
 
-cambiaBusqueda();
+function cierraCapa(nombre) {
+    let capa = document.getElementById(nombre);
+    capa.style.display = "none";
+}
 
+cambiaBusqueda();
 document.getElementById("origen").click();
 document.getElementById("destino").click();
 
