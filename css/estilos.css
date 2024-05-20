@@ -15,7 +15,7 @@
 }    
 
 #carro1 {
-    margin-top: -50px;
+    margin-top: 200px;
 }
 
 #carro2 {
@@ -425,10 +425,11 @@ form {
     }
 
     #findFrame {
-        height: 200px;
+        position: absolute;
+        height:380px;
         margin-top: -15px;
         margin-bottom: 30px;
-        align-self: flex-start;
+        z-index: 3;
     }
 
     .searcher{

@@ -1,0 +1,22 @@
+.contener {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(204, 204, 204);
+
+}
+
+.icon {
+    width: 20%;
+    height: 80px;
+    background-image: url(../Materials/svg/icons/aeropuerto.svg);
+    background-size:cover;
+    background-color: transparent;
+}
+
+.descript {
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
