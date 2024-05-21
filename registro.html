@@ -55,33 +55,34 @@
                <span class = "textSpanNav"> &#187 </span>
             <a class = "textLinkNav" href="./registro.html">Registro</a>
        </div>
-        <div class="base" id="baseRegistro" >
+    <div class="fondo" id="fondoRegistro">
+    </div>
+        <div id="baseRegistro" >
             <form id="register">
-                <label>Nombres</label>
-                <input type="text" id="nombre">
-                <label>Apellidos</label>
-                <input type="text" id="apellido">
-                <label>Usuario</label>
-                <input type="text" id="usuario">
-                <label>Password</label>
-                <input type="password" id="password">
-                <label>Re-Ingrese Password</label>
-                <input type="password" id="password2">
-                <label>E-Mail</label>
-                <input type="text" id="email">
-                <label>Re-Ingrese E-Mail</label>
-                <input type="text" id="email2">
-                <input type="submit" id="botonEnviar"  value="Enviar">
+                <label class="labelIzq">Nombres</label>
+                <input type="text" id="nombre" class="inputRegistro">
+                <label class="labelIzq">Apellidos</label>
+                <input type="text" id="apellido" class="inputRegistro">
+                <label class="labelIzq">Usuario</label>
+                <input type="text" id="usuario" class="inputRegistro">
+                <label class="labelIzq">Password</label>
+                <input type="password" id="password" class="inputRegistro">
+                <label class="labelIzq">Re-Ingrese Password</label>
+                <input type="password" id="password2" class="inputRegistro">
+                <label class="labelIzq">E-Mail</label>
+                <input type="text" id="email" class="inputRegistro">
+                <label class="labelIzq">Re-Ingrese E-Mail</label>
+                <input type="text" id="email2" class="inputRegistro">
+                <div class="enviar">
+                <input type="checkbox" id="acepto">
+                <label id="condiciones">Acepto las condiciones de uso.</label>
+                </div>
+                <input type="submit" id="botonEnviar"  value="Enviar">           
             </form>    
-        </div>
-        <div class="base">
-            <div>
-                
-            </div>
         </div>
     </main>
     <footer>
-        <div class="topFooter">
+        <div class="topFooter" id="footerReg">
             <div class="topIzquierdo">
                 <img src="./Materials/Logo_FH.png" alt="logo_FlightHandler" class="logoGral">
                 <p class="redes">Encuentranos y síguenos en nuestras redes.</p>

@@ -284,21 +284,37 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    z-index: 5;
 }
 
 #register {
     display: flex;
     flex-direction: column;
-    border-color: rgb(56,135,240);
-    padding: 2px;
-    margin: 10px;
+    padding: 8px;
+    margin: 0px;
     justify-content: center;
 }
 
+#fondoRegistro {
+    position: absolute;
+    width: 98.75%;
+    height: 600px;
+    margin-top: -15px;
+    margin-right: 0px;
+    justify-content: center;
+    z-index: -100;
+}
+
+#footerReg {
+    width: 100%;
+    margin-right: 0px;
+    align-items: center;
+    margin-top: 10px;
+}
+
 input {
-    border-color: rgb(56,135,240);
-    border-radius: 12px;
+    border-color: transparent;
+    border-radius: 0px;
     width: 200px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
@@ -308,32 +324,81 @@ input {
     margin-bottom: 5px;
 }
 
+input:active {
+    border-color: transparent;
+}
+
+.inputRegistro {
+    width: 90%;
+    height: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    box-shadow:
+    rgba(0, 0, 0, 0.005) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0.10) 0px 1px 0px 0px,
+    rgba(0, 0, 0, 0.35) 0px 0px 8px 0px,
+    rgba(0, 0, 0, 0.5) 0px 15px 15px 0px;
+}
+
+.acceso {
+    width: 20%;
+    margin-top: 70px;
+    margin-left: 42%;
+    margin-bottom: 110px;
+}
+
 label {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 10px;
+    font-size: 12px;
     padding: 2px;
     margin-left: 12px;
     color: rgb(255, 255, 255);
-    font-weight: bold;
     
 }
 
 form {
-    border-radius: 12px;
-    background-color: rgb(56,135,240);
-    opacity: 90%;
+    background-color:transparent;
+    opacity: 100%;
     margin-top: 10px;
-    width: auto;
+    width: 350px;
     justify-content: center;
+    border-radius: 12px;
+
 }
 
 #botonEnviar {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(255,255,255);
     margin-top: 12px;
     margin-bottom: 12px;
-    margin-left: 70px;
+    margin-left: 10px;
     width: 100px;
+    box-shadow:
+    rgba(0, 0, 0, 0.005) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0.10) 0px 1px 0px 0px,
+    rgba(0, 0, 0, 0.35) 0px 0px 8px 0px,
+    rgba(0, 0, 0, 0.5) 0px 5px 5px 0px;
+}
+
+#botonEnviar:active {
+    box-shadow:
+    rgba(0, 0, 0, 0.005) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0.10) 0px 1px 0px 0px,
+    rgba(0, 0, 0, 0.35) 0px 0px 8px 0px,
+    rgba(0, 0, 0, 0.5) 0px 2px 2px 0px;
+}
+
+
+.enviar {
+    display: flex;
+    align-items: center;
+    padding-right: 2px;
+    margin-right: 2px;
+    margin-left: -92px;
+}
+
+#condiciones {
+    padding: 0px;
+    margin-left: -100px;
 }
 
 
@@ -799,10 +864,11 @@ form {
 #register {
     display: flex;
     flex-direction: column;
-    border-color: rgb(56,135,240);
+    border-color: rgb(255, 255, 255);
     padding: 2px;
-    margin: 10px;
+    margin: 0px;
 }
+
 
 input {
     border-color: rgb(56,135,240);
@@ -820,9 +886,13 @@ label {
     font-size: 10px;
     padding: 2px;
     margin-left: 12px;
-    color: rgb(255, 255, 255);
+    color: rgb(2, 2, 2);
     font-weight: bold;
     
+}
+
+.labelIzq{
+    margin-left: 10px;
 }
 
 form {
