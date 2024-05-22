@@ -861,46 +861,62 @@ form {
 
 }
 
+.inputRegistro {
+    width: 90%;
+    height: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    box-shadow:
+    rgba(0, 0, 0, 0.005) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0.10) 0px 1px 0px 0px,
+    rgba(0, 0, 0, 0.35) 0px 0px 8px 0px,
+    rgba(0, 0, 0, 0.5) 0px 15px 15px 0px;
+}
+
 #register {
     display: flex;
     flex-direction: column;
-    border-color: rgb(255, 255, 255);
+    border-color:transparent;
     padding: 2px;
-    margin: 0px;
+    margin-left: 8%;
 }
 
 
 input {
-    border-color: rgb(56,135,240);
-    border-radius: 12px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
     padding: 3px;
     margin-left: 12px;
     margin-right: 12px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    border:none;
 }
 
 label {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 10px;
+    font-size: 11px;
     padding: 2px;
-    margin-left: 12px;
-    color: rgb(2, 2, 2);
-    font-weight: bold;
+    margin-left: 15px;
+    color: rgb(255, 255, 255);
     
 }
 
 .labelIzq{
-    margin-left: 10px;
+    margin-left: 15px;
+}
+
+#condiciones {
+    padding: 0px;
+    margin-left: -10px;
 }
 
 form {
-    border-radius: 12px;
-    background-color: rgb(56,135,240);
-    opacity: 90%;
+    background-color:transparent;
+    opacity: 100%;
     margin-top: 10px;
-    width: auto;
+    width: 350px;
+    justify-content: center;
+
 }
 
 #botonEnviar {

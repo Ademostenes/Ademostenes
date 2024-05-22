@@ -237,13 +237,33 @@ p {
     .container {
         display: flex;
         flex-direction: column;
-        width: 120%;
+        width: 130%;
         height: 60px;
         background-color: rgb(255,255,255);
-        border-radius: 12.5px;
-        margin-top: 5px;
+        margin-top: 10px;
         cursor: pointer;
-        margin-left: -23px;
+        margin-left: -30px;
+        box-shadow:
+        rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+        rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+        rgba(0, 0, 0, 0.2) 0px 0px 8px 0px,
+        rgba(0, 0, 0, 0.5) 0px 10px 10px 0px;
+    }
+
+    .containerIzq {
+        display: flex;
+        flex-direction: column;
+        width: 130%;
+        height: 60px;
+        background-color: rgb(255,255,255);
+        margin-top: 10px;
+        cursor: pointer;
+        margin-left: -30px;
+        box-shadow:
+        rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+        rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+        rgba(0, 0, 0, 0.2) 0px 0px 8px 0px,
+        rgba(0, 0, 0, 0.5) 0px 10px 10px 0px;
     }
 
     p {
@@ -254,7 +274,6 @@ p {
         font-size: 11px;
         color: rgb(56, 135, 240);
         font-weight: bolder;
-
     }
 
 
