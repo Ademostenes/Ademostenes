@@ -114,6 +114,13 @@ main {
     overflow: hidden;
 }
 
+.contieneForm {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
 
 .Ico {
     display: flex;
@@ -363,8 +370,8 @@ form {
     width: 350px;
     justify-content: center;
     border-radius: 12px;
-
 }
+
 
 #botonEnviar {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -920,10 +927,28 @@ form {
 }
 
 #botonEnviar {
+    width: 92%;
+    height: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(255,255,255);
     margin-top: 12px;
     margin-bottom: 12px;
+}
+
+#botonEnviar:hover {
+    box-shadow:
+    rgba(0, 0, 0, 0.005) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0.10) 0px 1px 0px 0px,
+    rgba(0, 0, 0, 0.35) 0px 0px 4px 0px,
+    rgba(0, 0, 0, 0.5) 0px 10px 10px 0px;
+}
+
+#botonEnviar:active {
+    box-shadow:
+    rgba(0, 0, 0, 0.005) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0.10) 0px 1px 0px 0px,
+    rgba(0, 0, 0, 0.35) 0px 0px 1px 0px,
+    rgba(0, 0, 0, 0.5) 0px 2px 2px 0px;
 }
 
 #botonEnviar:hover {
@@ -1085,6 +1110,14 @@ footer {
     color: rgb(255, 255, 255);
 }
 
+.contieneForm {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
 .iconos {
     margin-top: 15px;
     width: 30px;
@@ -1190,4 +1223,9 @@ footer {
     z-index: -5;
     padding-top: 20px;
 }
+
+#password {
+    margin-bottom: 20px;
+}
+
 }
