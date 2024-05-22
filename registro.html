@@ -47,34 +47,34 @@
             </nav>
             </div>
         <!-- Fin Header/Menú navegación -->
-    </header
+        </header>
     <main>
         <div class="navegacion">
             <p class = "textTitNav">Usted esta aquí: </p>
                <a class = "textLinkNav" href="./index.html">Inicio</a>
-               <span class = "textSpanNav"> &#187 </span>
+               <span class = "textSpanNav"> &#187; </span>
             <a class = "textLinkNav" href="./registro.html">Registro</a>
        </div>
     <div class="fondo" id="fondoRegistro">
     </div>
         <div id="baseRegistro" >
-            <form id="register">
+            <form id="register" onsubmit="mensajeValidacion()">
                 <label class="labelIzq">Nombres</label>
-                <input type="text" id="nombre" class="inputRegistro">
+                <input type="text" id="nombre" class="inputRegistro" required>
                 <label class="labelIzq">Apellidos</label>
-                <input type="text" id="apellido" class="inputRegistro">
+                <input type="text" id="apellido" class="inputRegistro" required>
                 <label class="labelIzq">Usuario</label>
-                <input type="text" id="usuario" class="inputRegistro">
+                <input type="text" id="usuario" class="inputRegistro" required>
                 <label class="labelIzq">Password</label>
-                <input type="password" id="password" class="inputRegistro">
+                <input type="password" id="password" class="inputRegistro" required>
                 <label class="labelIzq">Re-Ingrese Password</label>
-                <input type="password" id="password2" class="inputRegistro">
+                <input type="password" id="password2" class="inputRegistro" required>
                 <label class="labelIzq">E-Mail</label>
-                <input type="text" id="email" class="inputRegistro">
+                <input type="text" id="email" class="inputRegistro" required>
                 <label class="labelIzq">Re-Ingrese E-Mail</label>
-                <input type="text" id="email2" class="inputRegistro">
+                <input type="text" id="email2" class="inputRegistro" required>
                 <div class="enviar">
-                <input type="checkbox" id="acepto">
+                <input type="checkbox"  id="checkbok1" name="checkbox1" value="AceptoRecibirCorreo">
                 <label id="condiciones">Acepto las condiciones de uso.</label>
                 </div>
                 <input type="submit" id="botonEnviar"  value="Enviar">           
@@ -149,5 +149,6 @@
         </div>
     </footer>
     <script src="./funciones.js"></script>
+    <script src="./Js/validar.js"></script>
 </body>
 </html>
