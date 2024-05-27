@@ -1,13 +1,108 @@
 @media only screen and (min-width: 720px) {
 
+    main {
+        background: linear-gradient( rgb(76, 131, 202), rgb(214, 229, 248));
+        justify-content: center;
+    }
+
     .fondo {
         display: flex;
         position: absolute;
         width: 98.75%;
-        height: 1500px;
+        height: 143%;
         background: linear-gradient( rgb(76, 131, 202), rgb(214, 229, 248));
         z-index: -5;
         padding-top: 20px;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
+
+    #fondoIndex {
+        height: 1600px;
+    }
+
+    #fondoIngreso {
+        height: 80%;
+    }
+
+    .bVuelos {
+        display: flex;
+        margin-bottom: 25px;
+    }
+
+    .contiene {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        margin-top: -100px;
+    }
+
+    h3 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+        text-align: center;
+        user-select: none;
+
+    }
+
+    .buscarVuelos {
+        width: 37%;
+        height: 60px;
+        border-bottom-left-radius: 30px;
+        border-top-left-radius: 30px;
+        margin-left: 25%;
+        box-shadow:
+        rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+        rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+        rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,
+        rgba(27, 27, 27, 0.2) 0px 10px 10px 0px;
+        padding-left: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 16px;
+    }
+
+    .botBuscar {
+        display: flex;
+        width: 13%;
+        height: 70px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        margin-left: -10px;
+        background-color: rgb(56, 135, 240);
+        align-items: center;
+        justify-content: center;
+        box-shadow:
+        rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+        rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+        rgba(0, 0, 0, 0.1) 0px 0px 8px 0px,
+        rgba(27, 27, 27, 0.3) 0px 10px 10px 0px;
+        border: none;
+    }
+
+    .btn {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+        color: rgb(255, 255, 255);
+        font-weight: bolder;
+        user-select: none;
+    }
+
+    .botBuscar:hover {
+        margin-top: -1px;
+        box-shadow:
+        rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+        rgba(0, 0, 0, 0.1) 0px 1px 0px 0px,
+        rgba(0, 0, 0, 0.2) 0px 0px 8px 0px,
+        rgba(27, 27, 27, 0.4) 0px 10px 10px 0px;
+    }
+
+    .botBuscar:active {
+        margin-top: 1px;
+        box-shadow:
+        rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+        rgba(0, 0, 0, 0.5) 0px 1px 0px 0px,
+        rgba(0, 0, 0, 0.09) 0px 0px 8px 0px,
+        rgba(27, 27, 27, 0.1) 0px 10px 10px 0px;
     }
     
 .logoCel {
@@ -31,9 +126,6 @@
     margin-right: 20px;
 }
 
-main {
-    justify-content: center;
-}    
 
 .busquedas {
     display: flex;
@@ -49,6 +141,7 @@ main {
 .navegacion {
     display:flex;
     position: relative;
+    background-color: rgb(255,255,255);
     width: 100%;
     height: 20px;
     border-bottom-left-radius: 5px;
@@ -92,6 +185,10 @@ main {
     text-shadow: 2px 2px #000000;
 }
 
+#h1Vuelos {
+    margin-left: 30%;
+}
+
 #finder {
     background-image: url("../Materials/photo1.jpg");
     background-size: cover;
@@ -119,7 +216,6 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
 }
 
 .Ico {
@@ -297,26 +393,15 @@ nav {
 #register {
     display: flex;
     flex-direction: column;
-    padding: 8px;
     margin: 0px;
     justify-content: center;
 }
 
-#fondoRegistro {
-    position: absolute;
-    width: 98.75%;
-    height: 600px;
-    margin-top: -15px;
-    margin-right: 0px;
-    justify-content: center;
-    z-index: -100;
-}
 
 #footerReg {
     width: 100%;
     margin-right: 0px;
     align-items: center;
-    margin-top: 10px;
 }
 
 input {
@@ -408,14 +493,12 @@ form {
     margin-left: -100px;
 }
 
-
-  .gallery-cell:before {
-    display: block;
-    content: counter(gallery-cell);
-    line-height: 10px;
-    font-size: 80px;
-    color: white;
-  }
+.galeria {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
 
   .dentrode {
     display: flex;
@@ -483,6 +566,11 @@ form {
         object-fit:contain;
     }
 
+    #contGaleria {
+        margin-left: 100px;
+        user-select: none;
+    }
+
     .iframeCarr {
         display: flex;
         border: none;
@@ -513,6 +601,17 @@ form {
         text-align: center;
         margin-bottom: 2px;
         align-content:center;
+    }
+
+    .desplegable {
+        display: none;
+        position: absolute;
+        width: 35%;
+        height: 280px;
+        background-color: rgb(255,255,255);
+        border: none;
+        margin-left: 28%;
+        margin-top: 100px;
     }
     
     .selTipoViaje {
@@ -555,7 +654,10 @@ form {
         height: 20%;
         margin-left: 0px;
         margin-right: 0px;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
         background-color: rgb(135, 147, 161);
+        user-select: none;
     }
 
     .topIzquierdo {
@@ -611,6 +713,7 @@ form {
         flex-direction: column;
         width: 20%;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        user-select: none;
     }
 
     .botFooterIzq > a {
@@ -655,6 +758,7 @@ form {
         flex-direction: column;
         width: 20%;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        user-select: none;
     }
 
     .botFooterDer > h4 {
@@ -735,18 +839,6 @@ form {
 
 .navegacion {
     display:none;
-    position: relative;
-    width: 100%;
-    height: 20px;
-    border-radius: 5px;
-    box-shadow:
-    rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
-    rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
-    rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,
-    rgba(0, 0, 0, 0.1) 0px 10px 10px 0px;
-    margin-top: 10px;
-    align-items: center;
-    justify-content: flex-start;
 }
 
 .base {
@@ -1061,7 +1153,6 @@ form {
 footer {
     width: 100%;
     height: auto;
-
     border-left: none;
     border-right: none;
     margin-left: 0px;
