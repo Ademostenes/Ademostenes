@@ -16,7 +16,6 @@ h2 {
     height: auto;
     z-index: 0;
     filter:invert(51%) sepia(25%) saturate(5029%) hue-rotate(195deg) brightness(94%) contrast(100%);
-
 }
 
 .contenedor {
@@ -24,6 +23,13 @@ h2 {
     align-items: center;
     justify-items: center;
     flex-direction: column;
+}
+
+.imagen2 {
+    display: inline;
+    width:350px;
+    height: auto;
+    z-index: 0;
 }
 
 @media screen and (max-width:700px) {
